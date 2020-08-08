@@ -1,63 +1,97 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "imagebaseurl":"https://github.com/AshrafPatel",
+    "name": "Ashraf Patel",
+    "role": "Full Stack Developer",
+    "linkedinId":"ashr4fpatel",
+    "skypeid": "live:4shr4f",
+    "roleDescription": "I like dabbling in various parts of development and like to learn about new technologies, network with various people or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/ashr4fpatel/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/AshrafPatel",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "name":"twitter",
+          "url":"https://twitter.com/ashrafp2506",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am currently a graduate in Computer Programming at Humber College. I am a self taught Full Stack Web Developer, currently diving deeper into dotnetcore, Machine Learning and React Native. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "address":"United Kingdom/England",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Harvard University Online CS50 Courses",
+        "specialization":"CS50, CS50 Web Prograamming with Python and JavaScript",
+        "MonthOfPassing":"",
+        "YearOfPassing":"Present",
+        "Achievements":`For CS50 created multiple application in C language ranging from creating console dynamic apps to creating image filters. 
+                        In CS50 Web I have created applications using Flask and Djanago, I am currently working towarrds my final project. 
+                        In CS50 Mobile I created the first project a Pomodoro Timer using React Native.`
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Humber College Institute of Technology & Advanced Learning",
+        "specialization":"Computer Programming",
+        "MonthOfPassing":"April",
+        "YearOfPassing":"2019",
+        "Achievements":`Achieved a basic grasp of how programmers use code to achieve tasks. 
+                        Created multiple web, games and mobile apps in various languages HTML, CSS3, JavaScript, PHP, Python, C# and Java. 
+                        Lastly was given insights into project management and usec stories etc.`
+      },
+      {
+        "UniversityName":"Lancaster University",
+        "specialization":"Business",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2013",
+        "Achievements":`Achieved an overall understanding of how business operates using different structures, strategies and departments. 
+                        Correlated with groups to create plans and presentations which demonstate a solid understanding on topics such as Accounting, Human Resources, Marketing, 
+                        Operations and Law etc.`
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"DHL",
+        "specialization":"Customer Service",
+        "MonthOfLeaving":"September",
+        "YearOfLeaving":"2020",
+        "Achievements":`Handled over 80 calls daily and addressed a diverse range of calls such as calls for package enquiries, customs, sales and complaints etc.
+                        Utilized multiple tools to address questtions and sent emails to various people from different departments including senior supervisors.`
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
+        "CompanyName":"Digital Media Academy (SummerCamp)",
+        "specialization":"Instructor",
+        "MonthOfLeaving":"August",
+        "YearOfLeaving":"2019",
+        "Achievements":`Instructed a class of over 20 Students of various ages between 11 - 18 of various skill ranges
+                        Created learning material to teach students based on curriculum and existing material provided.
+                        Assisted students with debugging code`
+      },
+      {
+        "CompanyName":"Bond Brand Loyalty",
+        "specialization":"Customer Service/Administrator",
+        "MonthOfLeaving":"August",
+        "YearOfLeaving":"2017",
+        "Achievements":`Handled over 50 customer phone calls daily (peak around 80) and addressed inquiries relating to loyalty program information, customer orders, and complaints
+                        Utilized customer relationship management systems such as Vault and Synapse to authenticate customers and analyze customer data to deescalated issues and 
+                        provided solutions for customers. Provided excellent customer service by understanding the needs of customers, safeguarding confidential information, and 
+                        transferring relevant information to the correct departments`
+      },
+      {
+        "CompanyName":"HomeServe",
+        "specialization":"Dispatcher",
+        "MonthOfLeaving":"April",
+        "YearOfLeaving":"2015",
+        "Achievements":`Organising and arranging call outs, managing efficiently the works schedule of engineers as well as making sure that the team are working together to solve issues 
+                        such as double bookings, getting permission to increase costs from the cost-authorisation team to complete jobs, chasing reports/parts/part numbers and reporting to 
+                        WIP team on a daily basis `
+      },
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Android Studio, React, React Native, Django, Flask, SQL, C, JavaScript, Java, C#, DotNet, HTML, CSS3, SCSS, Bootstrap, jQuery, Visual Paradigm",
     "skills":[
       {
         "skillname":"HTML5"
@@ -66,39 +100,62 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
-      }
+        "skillname":"React"
+      },
+      {
+        "skillname":"ReactNative"
+      },
+      {
+        "skillname":"Django"
+      },
+      {
+        "skillname":"Flask"
+      },
+      {
+        "skillname":"DotNet"
+      },
+      {
+        "skillname":"AndroidStudio"
+      },
+      {
+        "skillname":"PHP"
+      },
+      
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Joke Application using React",
+        "description":"reactapp",
+        "imgurl":"images/portfolio/jokes.png"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Django Pizza App",
+        "description":"djangoormweb",
+        "imgurl":"images/portfolio/cs50w-raphaello-pizza.png"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Face Recognition App",
+        "description":"reactnodeapp",  
+        "imgurl":"images/portfolio/face-recognition.png"
       },
       {
         "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"flasksql",
+        "imgurl":"images/portfolio/cs50w-goodbooks.png"
       }
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"You know how to build stuff...",
+        "name":"Yorman cixtor.com"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"I learned a lot by taking this class. Thank You",
+        "name":"A student from Digital Media Academy (Intro to Java Programming)"
+      },
+      {
+        "description":"Impressive (Final Project Mobile development)",
+        "name":"Volodymyr Voytenko (Instructor at Humber College)"
       }
     ]
   }
