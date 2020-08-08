@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a graduate in Computer Programming at Humber College. I am a self taught Full Stack Web Developer, currently diving deeper into dotnetcore, Machine Learning and React Native. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I have graduated in Computer Programming at Humber College. I am a self taught Full Stack Web Developer, currently I have been diving deeper into dotnetcore and React Native. My future plans are to learn Machine Learning and Data Science. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"United Kingdom/England",
     "education":[
       {
