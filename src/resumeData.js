@@ -22,7 +22,9 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I have graduated in Computer Programming at Humber College. I am a self taught Full Stack Web Developer, currently I have been diving deeper into dotnetcore and React Native. My future plans are to learn Machine Learning and Data Science. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":`I have graduated in Computer Programming at Humber College. I am a self taught Full Stack Web Developer, currently I have been diving deeper 
+              into dotnetcore and React Native. My future plans are to learn Machine Learning and Data Science. I believe that to be successful in life, one 
+              needs to be obsessive with their dreams and keep working towards them.`,
     "address":"United Kingdom/England",
     "education":[
       {
@@ -126,22 +128,26 @@ let resumeData = {
       {
         "name":"Joke Application using React",
         "description":"reactapp",
-        "imgurl":"images/portfolio/jokes.png"
+        "imgurl":"images/portfolio/jokes.png",
+        "href": "http://joke-app-ash.herokuapp.com/"
       },
       {
         "name":"Django Pizza App",
         "description":"djangoormweb",
-        "imgurl":"images/portfolio/cs50w-raphaello-pizza.png"
+        "imgurl":"images/portfolio/cs50w-raphaello-pizza.png",
+        "href": "https://raphaello-pizza.herokuapp.com/"
       },
       {
         "name":"Face Recognition App",
         "description":"reactnodeapp",  
-        "imgurl":"images/portfolio/face-recognition.png"
+        "imgurl":"images/portfolio/face-recognition.png",
+        "href": "https://face-recognition-ash.herokuapp.com/"
       },
       {
-        "name":"project4",
+        "name":"Flask & SQL Application",
         "description":"flasksql",
-        "imgurl":"images/portfolio/cs50w-goodbooks.png"
+        "imgurl":"images/portfolio/cs50w-goodbooks.png",
+        "href": "https://cs50w-books-ash.herokuapp.com/"
       }
     ],
     "testimonials":[
