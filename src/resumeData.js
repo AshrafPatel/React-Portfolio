@@ -29,7 +29,8 @@ let resumeData = {
     "education":[
       {
         "UniversityName":"Harvard University Online CS50 Courses",
-        "specialization":"CS50, CS50 Web Prograamming with Python and JavaScript",
+        "specialization":`CS50, CS50 Web Prograamming with Python and JavaScript, CS50 Mobile Development, 
+                          CS50’s Introduction to Artificial Intelligence with Python`,
         "MonthOfPassing":"",
         "YearOfPassing":"Present",
         "Achievements":`For CS50 created multiple application in C language ranging from creating console dynamic apps to creating image filters. 
