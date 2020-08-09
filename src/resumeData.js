@@ -129,25 +129,29 @@ let resumeData = {
         "name":"Joke Application using React",
         "description":"reactapp",
         "imgurl":"images/portfolio/jokes.png",
-        "href": "http://joke-app-ash.herokuapp.com/"
+        "projecturl": "http://joke-app-ash.herokuapp.com/",
+        "key": 1
       },
       {
         "name":"Django Pizza App",
         "description":"djangoormweb",
         "imgurl":"images/portfolio/cs50w-raphaello-pizza.png",
-        "href": "https://raphaello-pizza.herokuapp.com/"
+        "projecturl": "https://raphaello-pizza.herokuapp.com/",
+        "key": 2
       },
       {
         "name":"Face Recognition App",
         "description":"reactnodeapp",  
         "imgurl":"images/portfolio/face-recognition.png",
-        "href": "https://face-recognition-ash.herokuapp.com/"
+        "projecturl": "https://face-recognition-ash.herokuapp.com/",
+        "key": 3
       },
       {
         "name":"Flask & SQL Application",
         "description":"flasksql",
         "imgurl":"images/portfolio/cs50w-goodbooks.png",
-        "href": "https://cs50w-books-ash.herokuapp.com/"
+        "projecturl": "https://cs50w-books-ash.herokuapp.com/",
+        "key": 4
       }
     ],
     "testimonials":[
