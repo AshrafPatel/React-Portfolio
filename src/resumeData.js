@@ -34,7 +34,7 @@ let resumeData = {
         "MonthOfPassing":"",
         "YearOfPassing":"Present",
         "Achievements":`For CS50 created multiple application in C language ranging from creating console dynamic apps to creating image filters. 
-                        In CS50 Web I have created applications using Flask and Djanago, I am currently working towarrds my final project. 
+                        In CS50 Web I have created applications using Flask and Djanago, I am currently working towards my final project. 
                         In CS50 Mobile I created the first project a Pomodoro Timer using React Native.`
       },
       {
@@ -44,7 +44,7 @@ let resumeData = {
         "YearOfPassing":"2019",
         "Achievements":`Achieved a basic grasp of how programmers use code to achieve tasks. 
                         Created multiple web, games and mobile apps in various languages HTML, CSS3, JavaScript, PHP, Python, C# and Java. 
-                        Lastly was given insights into project management and usec stories etc.`
+                        Lastly was given insights into project management, SDLC, UML and User Stories.`
       },
       {
         "UniversityName":"Lancaster University",
@@ -153,7 +153,7 @@ let resumeData = {
         "imgurl":"images/portfolio/cs50w-goodbooks.png",
         "projecturl": "https://cs50w-books-ash.herokuapp.com/",
         "key": 4
-      }
+      },
     ],
     "testimonials":[
       {
