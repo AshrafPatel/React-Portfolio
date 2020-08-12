@@ -155,13 +155,6 @@ let resumeData = {
         "key": 4
       },
       {
-        "name":"React Application",
-        "description":"flasksql",
-        "imgurl":"images/portfolio/cs50w-goodbooks.png",
-        "projecturl": "https://cs50w-books-ash.herokuapp.com/",
-        "key": 4
-      },
-      {
         "name":"Mobile Apps Java & React-Native",
         "description":"javareactnative",
         "imgurl":"images/portfolio/phone.png",
