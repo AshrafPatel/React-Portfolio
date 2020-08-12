@@ -63,7 +63,7 @@ let resumeData = {
         "MonthOfLeaving":"September",
         "YearOfLeaving":"2020",
         "Achievements":`Handled over 80 calls daily and addressed a diverse range of calls such as calls for package enquiries, customs, sales and complaints etc.
-                        Utilized multiple tools to address questtions and sent emails to various people from different departments including senior supervisors.`
+                        Utilized multiple tools to address questions and sent emails to various people from different departments.`
       },
       {
         "CompanyName":"Digital Media Academy (SummerCamp)",
@@ -153,6 +153,20 @@ let resumeData = {
         "imgurl":"images/portfolio/cs50w-goodbooks.png",
         "projecturl": "https://cs50w-books-ash.herokuapp.com/",
         "key": 4
+      },
+      {
+        "name":"React Application",
+        "description":"flasksql",
+        "imgurl":"images/portfolio/cs50w-goodbooks.png",
+        "projecturl": "https://cs50w-books-ash.herokuapp.com/",
+        "key": 4
+      },
+      {
+        "name":"Mobile Apps Java & React-Native",
+        "description":"javareactnative",
+        "imgurl":"images/portfolio/phone.png",
+        "projecturl": "https://github.com/AshrafPatel/MobileProjects",
+        "key": 5
       },
     ],
     "testimonials":[
