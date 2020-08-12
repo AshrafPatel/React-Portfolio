@@ -168,6 +168,20 @@ let resumeData = {
         "projecturl": "https://github.com/AshrafPatel/MobileProjects",
         "key": 5
       },
+      {
+        "name":"React Calculator",
+        "description":"reactcalculator",
+        "imgurl":"images/portfolio/calculator.png",
+        "projecturl": "https://codepen.io/4shr4f/full/jOOZxOE",
+        "key": 6
+      },
+      {
+        "name":"Pomodoro Timer App",
+        "description":"reacttimerapp",
+        "imgurl":"images/portfolio/pomodoro.png",
+        "projecturl": "https://codepen.io/4shr4f/full/NWWzwqj",
+        "key": 7
+      },
     ],
     "testimonials":[
       {
