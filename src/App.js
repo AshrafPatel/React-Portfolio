@@ -7,7 +7,7 @@ import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
-import ReactLogo from './logo.svg';
+import ReactLogo from './loader.svg';
 
 class App extends Component {
   constructor() {
@@ -18,9 +18,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({
-      loading: false
-    })
   }
 
   render() {
