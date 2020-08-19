@@ -7,9 +7,26 @@ import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import ReactLogo from './logo.svg';
+
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      loading: true
+    }
+  }
+
+  componentDidMount() {
+    this.setState({
+      loading: false
+    })
+  }
+
   render() {
     return (
+      this.state.loading ? 
+      <div className="loader"><img src={ReactLogo}/></div> :
       <div className="App">
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
