@@ -26,7 +26,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      loading: true
+      loading: false
     }
     this.displayLoader = this.displayLoader.bind(this)
   }
