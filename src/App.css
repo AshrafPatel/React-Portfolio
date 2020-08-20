@@ -18,16 +18,17 @@
 }
 
 .loader {
-  position: fixed;
-  height: 100%;
-  width: 100vw;
+  position: relative;
   display: flex;
-  background: rgba(255, 255, 255, 0.8);
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  margin: 0 auto;
 }
 
-.loader > img {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.loadText {
+  color: azure;
+  text-shadow: 10px 10px 3px 1px red;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
