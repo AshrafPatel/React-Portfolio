@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import Typing from 'react-typing-animation';
 
 export default class Header extends Component {
   render() {
@@ -25,8 +26,23 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline" data-aos="fade-up">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
+               <h1 className="responsive-headline" data-aos="fade-up">
+                 <Typing>
+                  <span>I am {resumeData.name}</span>
+                  <Typing.Backspace count={20} />
+                  {resumeData.role.map(element => {
+                    return (
+                    <div>
+                      <span>{element}</span>
+                      <Typing.Delay ms={1000} />
+                      <Typing.Backspace count={20} />
+                    </div>
+                    )
+                  })}
+                  <span>I am {resumeData.name}</span>
+                </Typing>
+               </h1>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role[0]}.{resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">

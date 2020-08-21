@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/AshrafPatel",
     "name": "Ashraf Patel",
-    "role": "Full Stack Developer",
+    "role": ["Full Stack Developer", "Front End Developer", "Back End Developer", "Programmer", "Graduate", "Coder", "Tutor", "Teacher", "Achiever", "Dreamer", "Gamer"],
     "linkedinId":"ashr4fpatel",
     "skypeid": "live:4shr4f",
     "roleDescription": "I like dabbling in various parts of development and like to learn about new technologies, network with various people or simply play games in my free time.",
@@ -25,7 +25,7 @@ let resumeData = {
     "aboutme":`I have graduated in Computer Programming at Humber College. I am a self taught Full Stack Web Developer, currently I have been diving deeper 
               into dotnetcore and React Native. My future plans are to learn Machine Learning and Data Science. I believe that to be successful in life, one 
               needs to be obsessive with their dreams and keep working towards them.`,
-    "address":"United Kingdom/England",
+    "address":"United Kingdom/England/Blackburn",
     "education":[
       {
         "UniversityName":"Harvard University Online CS50 Courses",
@@ -34,7 +34,7 @@ let resumeData = {
         "MonthOfPassing":"",
         "YearOfPassing":"Present",
         "Achievements":`For CS50 created multiple application in C language ranging from creating console dynamic apps to creating image filters. 
-                        In CS50 Web I have created applications using Flask and Djanago, I am currently working towards my final project. 
+                        In CS50 Web I have created applications using Flask and Django, I am currently working towards my final project. 
                         In CS50 Mobile I created the first project a Pomodoro Timer using React Native.`
       },
       {
