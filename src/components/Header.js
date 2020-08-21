@@ -13,7 +13,7 @@ export default class Header extends Component {
       <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <a className="mobile-btn" href={`#${Link.activeClass}`} title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li><Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
                <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>About</Link></li>
@@ -26,7 +26,7 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline" data-aos="fade-up">
+               <h1 className="responsive-headline">
                  <Typing>
                   <span>I am {resumeData.name}</span>
                   <Typing.Backspace count={20} />
