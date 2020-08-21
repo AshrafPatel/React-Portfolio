@@ -39,7 +39,7 @@ class App extends Component {
 
 
   componentDidMount() {
-    setTimeout(this.displayLoader, 2000)
+    setTimeout(this.displayLoader, 1500)
   }
 
   render() {
