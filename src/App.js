@@ -29,7 +29,6 @@ class App extends Component {
       loading: true
     }
     this.displayLoader = this.displayLoader.bind(this);
-    this.handleScroll = this.handleScroll.bind(this);
   }
 
   displayLoader() {
@@ -38,13 +37,9 @@ class App extends Component {
     })
   }
 
-  handleScroll() {
-    
-  }
 
   componentDidMount() {
     setTimeout(this.displayLoader, 2000)
-    window.addEventListener('scroll', this.handleScroll, true);
   }
 
   render() {
