@@ -14,7 +14,7 @@ export default class Header extends Component {
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
-               <li className="current"><Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
+               <li><Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
                <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>About</Link></li>
                <li><Link activeClass="active" to="resume" spy={true} smooth={true} offset={-70} duration={500}>Resume</Link></li>
                <li><Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>Works</Link></li>

@@ -1,3 +1,4 @@
+import "./App.css"
 import React, { Component } from 'react';
 import Header from './components/Header';
 import About from './components/About';
@@ -11,7 +12,6 @@ import ReactLogo from './BlockLoader.svg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import "./App.css"
 
 AOS.init({
   delay: 400, // values from 0 to 3000, with step 50ms
@@ -26,9 +26,10 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      loading: false
+      loading: true
     }
-    this.displayLoader = this.displayLoader.bind(this)
+    this.displayLoader = this.displayLoader.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
 
   displayLoader() {
@@ -37,8 +38,13 @@ class App extends Component {
     })
   }
 
+  handleScroll() {
+    
+  }
+
   componentDidMount() {
     setTimeout(this.displayLoader, 2000)
+    window.addEventListener('scroll', this.handleScroll, true);
   }
 
   render() {
