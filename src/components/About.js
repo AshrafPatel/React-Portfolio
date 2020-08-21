@@ -9,14 +9,14 @@ export default class About extends Component {
 
             <div className="three columns">
 
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+               <img data-aos="flip-left" data-aos-delay="200" className="profile-pic"  src="images/profilepic.jpg" alt="" />
 
             </div>
 
             <div className="nine columns main-col">
 
                <h1 id="about-header">About Me</h1>
-               <p>
+               <p data-aos="fade-left" data-aos-delay="400">
                {
                  resumeData.aboutme
                }

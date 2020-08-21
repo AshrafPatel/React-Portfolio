@@ -23,7 +23,7 @@ let resumeData = {
         }
       ],
     "aboutme":`I have graduated in Computer Programming at Humber College. I am a self taught Full Stack Web Developer, currently I have been diving deeper 
-              into dotnetcore and React Native. My future plans are to learn Machine Learning and Data Science. I believe that to be successful in life, one 
+              into Django and React Native. My future plans are to learn Machine Learning and Data Science. I believe that to be successful in life, one 
               needs to be obsessive with their dreams and keep working towards them.`,
     "address":"United Kingdom/England/Blackburn",
     "education":[

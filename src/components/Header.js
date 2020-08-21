@@ -36,12 +36,13 @@ export default class Header extends Component {
                <h1 className="responsive-headline">
                  <Typing>
                   <span>I am {resumeData.name}</span>
+                  <Typing.Delay ms={10000} />
                   <Typing.Backspace count={20} />
                   {resumeData.role.map(element => {
                     return (
                     <div>
                       <span>{element}</span>
-                      <Typing.Delay ms={1000} />
+                      <Typing.Delay ms={1500} />
                       <Typing.Backspace count={20} />
                     </div>
                     )
@@ -49,7 +50,7 @@ export default class Header extends Component {
                   <span>I am {resumeData.name}</span>
                 </Typing>
                </h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role[0]}.{resumeData.roleDescription}
+               <h3 data-aos="fade-right" data-aos-delay="2000" style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role[0]}.{resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">

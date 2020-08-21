@@ -11,7 +11,7 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item" key={item.key}>
+                <div className="columns portfolio-item" key={item.key} data-aos="zoom-in" data-aos-delay="500">
                   <div className="item-wrap">
                     <li onClick={()=> window.open(item.projecturl, "_blank")} style={{cursor: "pointer"}}>
                       <img src={`${item.imgurl}`} className="item-img"/>
