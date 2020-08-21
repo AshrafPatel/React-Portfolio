@@ -3,17 +3,24 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Typing from 'react-typing-animation';
 
 export default class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(e) {
+    console.log(e)
+  }
+
   render() {
     let resumeData = this.props.resumeData;
     
     return (
-      
-      <React.Fragment>
-      
+      <React.Fragment>     
       <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a className="mobile-btn" href={`#${Link.activeClass}`} title="Hide navigation">Hide navigation</a>
+            <a className="mobile-btn" href="#nav-nowrap" onClick={(e) => this.handleClick} title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li><Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
                <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>About</Link></li>
