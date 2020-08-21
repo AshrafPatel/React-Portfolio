@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/AshrafPatel",
     "name": "Ashraf Patel",
-    "role": ["Full Stack Developer", "Front End Developer", "Back End Developer", "Programmer", "Graduate", "Coder", "Tutor", "Teacher", "Achiever", "Software Engineer", "Dreamer", "Gamer"],
+    "role": ["Full Stack Developer", "Front End Developer", "Back End Developer", "Programmer", "Graduate", "Coder", "Tutor", "Teacher", "Achiever", "Software Engineer", "Gamer"],
     "linkedinId":"ashr4fpatel",
     "skypeid": "live:4shr4f",
     "roleDescription": "I like dabbling in various parts of development and like to learn about new technologies, network with various people or simply play games in my free time.",
