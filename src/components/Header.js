@@ -50,7 +50,7 @@ export default class Header extends Component {
                   <span>I am {resumeData.name}</span>
                 </Typing>
                </h1>
-               <h3 data-aos="fade-right" data-aos-delay="2000" style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role[0]}.{resumeData.roleDescription}
+               <h3 data-aos="fade-right" data-aos-delay="1500" style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role[0]}.{resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">
