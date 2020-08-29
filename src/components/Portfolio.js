@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    let timeDelay = 100;
     return (
       <section id="portfolio">
       <div className="row">
@@ -11,7 +12,7 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item" key={item.key} data-aos="zoom-in" data-aos-delay="300">
+                <div className="columns portfolio-item" key={item.key} data-aos="zoom-in" data-aos-delay={timeDelay += 150}>
                   <div className="item-wrap">
                     <li onClick={()=> window.open(item.projecturl, "_blank")} style={{cursor: "pointer"}}>
                       <img src={`${item.imgurl}`} className="item-img"/>

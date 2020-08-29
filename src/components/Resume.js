@@ -40,7 +40,7 @@ export default  class Resume extends Component {
               {
                 resumeData.work && resumeData.work.map((item) => {
                   return(
-                    <div className="row item" data-aos="fade-left" data-aos-delay="100">
+                    <div className="row item" data-aos="fade-right" data-aos-delay="100">
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
