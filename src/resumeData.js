@@ -175,6 +175,13 @@ let resumeData = {
         "projecturl": "https://codepen.io/4shr4f/full/NWWzwqj",
         "key": 7
       },
+      {
+        "name":"Pokedex API callback Redux",
+        "description":"rreduxpokdex",
+        "imgurl":"images/portfolio/pokdex.png",
+        "projecturl": "https://pure-inlet-71397.herokuapp.com/",
+        "key": 8
+      },
     ],
     "testimonials":[
       {

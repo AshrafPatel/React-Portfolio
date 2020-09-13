@@ -45,7 +45,7 @@ class App extends Component {
   render() {
     return (
       this.state.loading ? 
-      <div className="loader"><img src={ReactLogo}/><h2 className="loadText">Loading</h2></div> :
+      <div className="loader"><img src={ReactLogo} alt="Loading"/><h2 className="loadText">Loading</h2></div> :
       <div className="App" style={{textAlign: "left"}}>
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
