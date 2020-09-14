@@ -179,7 +179,7 @@ let resumeData = {
         "name":"Pokedex API callback Redux",
         "description":"rreduxpokdex",
         "imgurl":"images/portfolio/pokedex.png",
-        "projecturl": "https://pure-inlet-71397.herokuapp.com/",
+        "projecturl": "https://pokedex-rredux.herokuapp.com/",
         "key": 8
       },
     ],
